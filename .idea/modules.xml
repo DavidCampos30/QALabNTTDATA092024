@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bucleFor.iml" filepath="$PROJECT_DIR$/bucleFor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppArrays.iml" filepath="$PROJECT_DIR$/AppArrays.iml" />
     </modules>
   </component>
 </project>

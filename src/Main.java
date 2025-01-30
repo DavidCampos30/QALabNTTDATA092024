@@ -1,49 +1,34 @@
 public class Main {
     public static void main(String[] args) {
 
-        for(int i=100; i<=130; i=i+2){
-            //System.out.println("Hola: " + i);
-        }
+        String configTest[] = {"123.123.42.12", "jkbe", "21231"};
+        String configProd[] = {"www.google.com", "jkbenites", "alalals"};
+        String configDesa[] = {"123.123.42.10", "userdesa02", "1234"};
 
-        for(int i=100; i>=0; i--){
-            //System.out.println("Hola: " + i);
-        }
+        int XPROD = 2;
+        int XTEST = 1;
+        int XDESA = 0;
+        int CSERV = 0;
+        int CUSER = 1;
+        int CPASS = 2;
+        int CAMB = 3;
 
-        int n = 3;
-        for(int i=1; i<=10-n; i++){
-           // System.out.println("Hola: " + i);
-        }
+        String config[][] = {
+                {"123.123.42.10", "userdesa02", "1234", "DESA", "otro campo"},   //0
+                {"123.123.42.12", "jkbe", "21231", "TEST"},        //1
+                {"www.google.com", "jkbenites", "alalals", "PROD"} //2
+        };
 
-        for(int i=0; i<=5; i++){
-            System.out.println("Hola: " + i);
-            for(int j=i; j<=3+i; j++){
-                System.out.println("\t: valor " + j);
-            }
-        }
+
+        //Hacer doble bucle for/for
+
+
+        //CLAVE: DESARROLLO
+
+        //System.out.println(config[3][1]);
+        //System.out.println(config[1][1]);
+        System.out.println(config[XPROD][CPASS]); //...
+
+
     }
 }
-/*
-
-necesitas usar 2 bucles ...
-Ejercicios 4 minutos, 4 minutos, 10minutos
-
-n = 4;
-
-#
-##
-###
-####
-
-####
-###
-##
-#
-
-
-# ####
-## ###
-### ##
-#### #
-
-
- */

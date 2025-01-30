@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/POO_Game.iml" filepath="$PROJECT_DIR$/POO_Game.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/AppArrays.iml" filepath="$PROJECT_DIR$/AppArrays.iml" />
+>>>>>>> test
     </modules>
   </component>
 </project>

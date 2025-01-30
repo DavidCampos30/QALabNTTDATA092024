@@ -1,49 +1,49 @@
 public class Main {
     public static void main(String[] args) {
 
-        for(int i=100; i<=130; i=i+2){
-            //System.out.println("Hola: " + i);
-        }
 
-        for(int i=100; i>=0; i--){
-            //System.out.println("Hola: " + i);
-        }
+        Toyota toyo = new Toyota("PAS201"); //200
+        toyo.encenderMotor();
+        toyo.avanzar();
+        System.out.println("Velocidad Máxima: " + toyo.getdVelocidadMaxima());
 
-        int n = 3;
-        for(int i=1; i<=10-n; i++){
-           // System.out.println("Hola: " + i);
-        }
+        Toyota toyo2 = new Toyota("ASP120");
+        toyo2.setdVelocidadMaxima(300);
+        System.out.println("Velocidad Máxima: " + toyo2.getdVelocidadMaxima());
 
-        for(int i=0; i<=5; i++){
-            System.out.println("Hola: " + i);
-            for(int j=i; j<=3+i; j++){
-                System.out.println("\t: valor " + j);
-            }
-        }
+
+        System.out.println("========================================== ");
+
+        Nissan nis = new Nissan(); // 220
+        nis.encenderMotor();
+        nis.avanzar();
+
+        System.out.println("Velocidad Máxima: " + nis.getdVelocidadMaxima());
+
+/*
+        Auto auto1 = new Auto();
+
+        auto1.encenderMotor();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar(); auto1.avanzar();
+        auto1.avanzar();
+        auto1.avanzar();
+        //auto1.frenarHastaDetener();
+*/
+
+
+
+
     }
 }
-/*
-
-necesitas usar 2 bucles ...
-Ejercicios 4 minutos, 4 minutos, 10minutos
-
-n = 4;
-
-#
-##
-###
-####
-
-####
-###
-##
-#
-
-
-# ####
-## ###
-### ##
-#### #
-
-
- */
